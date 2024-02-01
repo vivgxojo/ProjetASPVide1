@@ -6,7 +6,7 @@ namespace ProjetASPVide1.Controllers
 	{
 		public IActionResult Index(string p1, string p2)
 		{
-			return Content("Les paramètres sont " + p1+ " et " + p2);
+			return Content("Les paramètres : " + p1+ " et " + p2);
 		}
 	}
 }
